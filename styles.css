@@ -1,0 +1,146 @@
+/* ===== Base ===== */
+body {
+    background-color: #ffffff;
+    color: #d62828;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* ===== Encabezado con diagonal roja ===== */
+.hero {
+    position: relative;
+    background: #d62828;
+    padding: 60px 20px 100px;
+    clip-path: polygon(0 0, 60% 0, 20% 100%, 0 100%);
+}
+
+.hero h1 {
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: #ffffff;
+    margin: 0;
+    padding-left: 10px;
+}
+
+/* ===== Títulos ===== */
+h2 {
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 700;
+    color: #d62828;
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+h3 {
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 700;
+    color: #d62828;
+    font-size: 1.6rem;
+    margin-left: 20px;
+}
+
+/* ===== Párrafos limpios ===== */
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    line-height: 1.7;
+    color: #333;
+    max-width: 700px;
+    margin: 10px auto;
+    padding: 0 20px;
+}
+
+/* ===== Separadores ===== */
+hr {
+    border: none;
+    height: 2px;
+    background: #f4a3a3;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.footer-divider {
+    border: none;
+    height: 2px;
+    background: #d62828;
+    width: 100%;
+    margin: 0;
+}
+
+/* ===== Listas del menú ===== */
+ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+ul li {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-bottom: 1px dashed #f4a3a3;
+}
+
+/* ===== Imágenes ===== */
+.wide-image {
+    width: 100%;
+    display: block;
+    margin: 40px 0;
+}
+
+.cafe0 {
+    width: 200px;
+    border-radius: 12px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* ===== Botón ===== */
+button {
+    display: block;
+    margin: 30px auto;
+    background: #d62828;
+    color: #fff;
+    border: none;
+    padding: 14px 28px;
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+}
+
+button:hover {
+    background: #b71c1c;
+    transform: scale(1.05);
+}
+
+/* ===== Footer con bloque rojo tipo "servilleta" ===== */
+footer {
+    background: #d62828;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 60px;
+}
+
+footer p {
+    color: #fff;
+    max-width: none;
+}
+.ubics{
+    color: #d62828;
+    text-decoration: none;
+}
+
+.ubics:visited {
+    color: #d62828;
+}
+
+.ubics:hover {
+    color: #b71c1c;
+}
